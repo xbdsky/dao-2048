@@ -1,0 +1,109 @@
+@charset "utf-8";
+html,body {
+	height:100%;
+}
+html {
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+	margin:0;
+	padding:0
+}
+ul,ol {
+	list-style:none
+}
+s {
+	text-decoration:none
+}
+img {
+	border:0
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0
+}
+caption,cite,code,dfn,th,var {
+	text-align:left;
+	font-weight:normal;
+	font-style:inherit;
+}
+body {
+	background-color:#fff;
+}
+/* 表单*/
+	label {
+	display:inline-block;
+	*display:inline;
+	*zoom:1
+}
+button,input,select,textarea {
+	vertical-align:baseline;
+	*vertical-align:middle
+}
+input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"] input[type="button"]::-moz-focus-inner {
+	border:none;
+	padding:0
+}
+/* 字体*/
+	h1 {
+	font-size:24px;
+	margin:0 0 12px
+}
+h2 {
+	font-size:24px;
+	margin:0 0 10px
+}
+h3 {
+	font-size:18px;
+	margin:0 0 8px
+}
+h4 {
+	font-size:16px;
+	margin:0 0 5px
+}
+h5 {
+	font-size:14px;
+	margin:5px 0
+}
+h6 {
+	font-size:14px;
+	margin:0 0 5px;
+}
+.clearfix {
+	overflow:hidden;
+	zoom:1;
+}
+
+/* 项目主体部分设置 */
+html{}
+a{color:#454545;text-decoration:none;transition:all 0.2s linear 0s;}
+body{background:#f8f8f8;color:#888;font:12px/1.5 "\5fae\8f6f\96c5\9ed1",\5b8b\4f53,"microsoft yahei",Arial;}
+input,textarea{font-family:"Tahoma",\5b8b\4f53,"microsoft yahei",Arial;vertical-align:middle;}
+a:hover{color:#f60;text-decoration:underline}
+.spot{color:#F6BD00!important}
+.blue{color:#078DCF!important}
+.orange{color:#EF6500}
+.green{color:#108E3F!important}
+.red{color:red!important}
+.c_444{color:#444!important}
+.opy_w{text-shadow:-1px -1px 0 rgba(255,255,255,0.2);}
+.opy_b{text-shadow:-1px -1px 0 rgba(0,0,0,0.15);}
+.inline{display:inline-block;*display:inline;zoom:1;}
+.middle{vertical-align:middle}
+img{}
+.text_Indent{text-indent:-999px;}
+.col1{}
+.col2{width:160px;position:absolute;right:-170px;top:0;}
+.center{text-align:center}
+.right{text-align:right}
+.fsize{font-size:35px}
+
+.tab { height:30px; background:#f3528b; padding:10px 0px; }
+.tab-list{ width:90%; border-radius:5px; background:#fff; height:30px; margin:0px auto; text-align:center; border:1px #fff solid; }
+.tab-list li { float:left; width:32.98%; line-height:30px; border-left:1px #fff solid; }
+.tab-list li.link { background:#f24f88; color:#fff; }
+.tab-list li.active { }
+.tab-list li:first-child { border-radius:5px 0 0 5px; }
+.tab-list li:last-child { border-radius:0 5px 5px 0; }
